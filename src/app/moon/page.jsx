@@ -10,6 +10,7 @@ import Link from "next/link";
 function page() {
   return (
     <>
+    <div className={styles.wrapper}>
     <Link href="/">
       <Canvas style={{ width: "100vw", height: "100vh" }}>
         {" "}
@@ -18,6 +19,7 @@ function page() {
         <Moon />
       </Canvas>
     </Link>
+    </div>
     </>
   );
 }

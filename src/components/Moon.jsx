@@ -4,7 +4,7 @@ import { useFrame } from "@react-three/fiber";
 import { TextureLoader } from "three";
 import { useLoader } from "@react-three/fiber";
 
-import MoonTexture from "../assets/222.png";
+import MoonTexture from "../assets/825.png";
 
 function Moon() {
   const moonRef = useRef();
