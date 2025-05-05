@@ -26,12 +26,29 @@
 
 
 
+@media (min-width: 370px) {
+.video {
+  height: 200px;
+  width: 500px;
+}
+}
+
+
 @media (min-width: 380px) {
 .video {
   height: 200px;
   width: 500px;
 }
 }
+
+
+@media (min-width: 390px) {
+.video {
+  height: 200px;
+  width: 500px;
+}
+}
+
 
 @media (min-width: 480px) {
     .video {

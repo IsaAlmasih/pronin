@@ -3,7 +3,14 @@
 }
 
 
-@media (min-width: 380px) {
+@media (min-width: 370px) {
+.planet {
+  height: 100px;
+  width: 500px;
+}
+}
+
+@media (min-width: 390px) {
 .planet {
   height: 100px;
   width: 500px;
