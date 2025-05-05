@@ -20,7 +20,7 @@
 
 
 .video {
-  height: 700px;
+  height: 100%;
   width: 1500px;
 }
 
@@ -28,15 +28,15 @@
 
 @media (min-width: 370px) {
 .video {
-  height: 200px;
-  width: 500px;
+  height: 100%;
+  width: 300px;
 }
 }
 
 
 @media (min-width: 380px) {
 .video {
-  height: 200px;
+  height: 100%;
   width: 500px;
 }
 }
@@ -44,7 +44,7 @@
 
 @media (min-width: 390px) {
 .video {
-  height: 200px;
+  height: 100%;
   width: 500px;
 }
 }
@@ -52,17 +52,17 @@
 
 @media (min-width: 480px) {
     .video {
-  height: 300px;
+  height: 100%;
   width: 500px;
 }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .video {
   height: 400px;
   width: 700px;
 }
-}
+} */
 
 /* @media (min-width: 962px) {
     .video {
