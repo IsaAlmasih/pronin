@@ -9,17 +9,75 @@
 }
 
 
-.logo {
+/* .logo {
   background-position: center;
   background-size:contain;
-  background-image: url("../assets/222.png");
+  background-image: url("../assets/0087.png");
   background-repeat:no-repeat;
   height: 300px;
   width: 800px;
-}
+} */
 
 
 .video {
-  height: 1000px;
-  width: 2000px;
+  height: 700px;
+  width: 1500px;
 }
+
+
+
+@media (min-width: 380px) {
+.video {
+  height: 200px;
+  width: 500px;
+}
+}
+
+@media (min-width: 480px) {
+    .video {
+  height: 300px;
+  width: 500px;
+}
+}
+
+@media (min-width: 768px) {
+    .video {
+  height: 400px;
+  width: 700px;
+}
+}
+
+/* @media (min-width: 962px) {
+    .video {
+  height: 700px;
+  width: 1500px;
+}
+}
+
+@media (min-width: 1024px) {
+    .video {
+  height: 700px;
+  width: 1500px;
+}
+}
+
+@media (min-width: 1280px) {
+    .video {
+  height: 700px;
+  width: 1500px;
+}
+}
+
+@media (min-width: 1536px) {
+    .video {
+  height: 700px;
+  width: 1500px;
+} 
+}
+
+@media (min-width: 1920px) {
+    .video {
+  height: 700px;
+  width: 1500px;
+}
+} */

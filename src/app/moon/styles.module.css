@@ -1,3 +1,18 @@
 .wrapper {
-    background-color: rgb(0, 17, 167);
+    background-color: rgb(5, 14, 95);
+}
+
+
+@media (min-width: 380px) {
+.planet {
+  height: 100px;
+  width: 500px;
+}
+}
+
+@media (min-width: 480px) {
+    .planet {
+  height: 300px;
+  width: 500px;
+}
 }

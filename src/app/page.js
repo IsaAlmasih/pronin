@@ -8,9 +8,9 @@ const page = () => {
   return (
     <div className={styles.wrapper}>
       <Link href="/moon">
-      <video playsInline autoPlay loop className={styles.video}>
-        <source src={"/pronin.mp4"} type="video/mp4" />
-      </video>
+        <video playsInline autoPlay muted loop className={styles.video}>
+          <source src={"/pronin.mp4"} type="video/mp4" />
+        </video>
       </Link>
       {/* <Link href="/">
         <div className={styles.logo}></div>

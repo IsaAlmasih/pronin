@@ -11,7 +11,7 @@ function page() {
   return (
     <>
     <div className={styles.wrapper}>
-    <Link href="/">
+    <Link href="/" className={styles.wrapper}>
       <Canvas style={{ width: "100vw", height: "100vh" }}>
         {" "}
         <ambientLight intensity={2.5} /> {/*Интенсивность света.*/}
